@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 1%;
+            padding: 1%;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 10px;
+        }
+        .nav-area li{
+            display: inline-block;
+            padding: 0 15px;
+            
+        }
+        .btn-area{
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            letter-spacing: 2px;
+            padding: 10px 30px;
+            border-radius: 5px;
+            background: blanchedalmond;
+        }
+        .phone img{
+            position: absolute;
+            top: 0%;
+            right: 0%;
+            z-index: -9;
+            margin-top: 30px;
+            width: 45%;
+        }
+        .phone h1{
+            margin-top: 250px;
+        }
+        .phone p{
+            margin-bottom: 50px;
+        }
+        .phone-btns {
+           margin-bottom: 300px;
+        }
+        .services {
+           padding: 50px;
+        }
+        .service-box {
+           background-color: white;
+           padding: 40px 45px;
+           margin: 10px;
+           box-shadow: 0px 3px 7px 0px rgba(28,31,33,0.15);
+           min-height: 400px;
+        }
+        .contact {
+           max-height: 550px;
+        }
+
+         .email input {
+           width: 100%;
+           height: 60px;
+           background-color: white;
+           border: none;
+           padding: 0px 20px;
+           color: midnightblue;
+           margin-bottom: 15px;
+        }
+
+        textarea {
+            background-color: white;
+            border: none;
+            width: 100%;
+            padding: 20px;
+            margin-top: 15px;
+            color: midnightblue;
+}
+
+        footer {
+           background-color: midnightblue;
+           width: 100%;
+           min-height: 400px;
+           text-align: center;
+           padding: 50px;
+        }
+        footer h5{
+           color: white;
+           padding-bottom: 10px;
+        }
+        footer h3{
+           color: red;
+           font-size: 8;
+           margin-bottom: 30px;
+        }
+        .contact-nav li {
+           display: inline;
+           color: white;
+        }
+        .contact-nav a {
+           color: white;
+           font-size: 1;
+           padding: 20px 20px;
+        }
+
+        footer h6 {
+           color: white;
+           font-size: 5;
+           font-weight: 400;
+           margin-top: 50px;
+           margin-bottom: 20px;
+        }
+        h1,
+       .h1,
+        h2,
+       .h2,
+        h3,
+       .h3,
+        h4,
+       .h4,
+        h5,
+       .h5,
+        h6,
+       .h6 {
+           color: #314584;
+           font-weight: 600;
+           letter-spacing: 1px;
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 href="#">Doob</h1>
+        <nav>
+            <ul class="nav-area">
+               <li><a href="#">home.</a></li>
+               <li><a href="#">About us.</a></li>
+               <li><a href="#">Portfolio.</a></li>
+               <li><a href="#">Blog.</a></li>
+               <li><a href="#">Contact us.</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn-area">Contact us</a>
+    </header>
+    <div class="phone">
+        <img src="images/phone.jpg" alt="">
+        <div>
+            <h1>The Spirit of<br>Digital Agency.</h1>
+            <p>Vestibulum ac diam sit amet quam vehicula elementum<br> amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+            <div class="phone-btns">
+                <a href="#about-us">More About us</a>
+                <a href="#contact-us">Get in Touch.</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="=services">
+        <div>
+            <div class="row">
+                <div>
+                    <h2>Anything you need,we’ve got you covered</h2>
+                    <div class="service-btn">
+                        <a href="#contact-us">Get in Touch</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="service-box">
+                        <img src="images/service-icon1.png" alt="">
+                        <h3>Web & Graphic<br>Design</h3>
+                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="service-box">
+                        <img src="images/service-icon2.png" alt="">
+                        <h3>Web & App<br>Development</h3>
+                        <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div>
+            <div class="row">
+                <div>
+                    <img src="images/about.jpg" alt="">
+                </div>
+                <div>
+                    <h5>OUR COMPANY</h5>
+                    <h2>Some Fine<br>Words About Us</h2>
+                    <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam sit amet.Quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div>
+            <div class="row">
+                <div>
+                    <h2>See some of our<br>Creative work.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="photobox">
+                        <div>
+                          <img src="images/1.png" class="" alt="">
+                        </div>
+                      </div>
+                  </div>
+                  <div>
+                    <div>
+                        <div class="photobox">
+                          <img src="images/1.png" class="" alt="">
+                        </div>
+                      </div>
+                  </div>
+                  <div>
+                    <div>
+                        <div class="photobox">
+                          <img src="images/1.png" class="" alt="">
+                        </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div>
+                    <div>
+                        <div class="photobox">
+                          <img src="images/1.png" class="" alt="">
+                        </div>
+                      </div>
+                  </div>
+                  <div>
+                    <div>
+                        <div class="photobox">
+                          <img src="images/1.png" class="" alt="">
+                        </div>
+                      </div>
+                  </div>
+                  <div>
+                    <div>
+                        <div class="photobox">
+                          <img src="images/1.png" class="" alt="">
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 more-btn">
+                      <a class="more-btn-inside">Show More.</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <h5>BLOG STORIES</h5>
+            <h2>Check Our News</h2>
+        </div>
+        <div id="blog-drag">
+            <div>
+                <h6>NEW ADVENTURE</h6>
+                <p>17 March 2019</p>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+            </div>
+            <div>
+                <h6>NEW ADVENTURE</h6>
+                <p>17 March 2019</p>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+            </div>
+            <div>
+                <h6>NEW ADVENTURE</h6>
+                <p>17 March 2019</p>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us" class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h5>CONTACT US</h5>
+              <h2>Get in Touch</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6 email">
+              <input placeholder="Your email" type="email" id="email" pattern=".+@globex.com" size="30" required>
+            </div>
+            <div class="col-12 col-lg-6 email">
+              <input placeholder="Subject" type="subject" id="subject" size="30" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 message">
+              <textarea id="message" name="message" rows="5" cols="1">Message here...</textarea>
+            </div>
+            <div class="col-12">
+              <div class="hero-btns contact-btn">
+                <!-- Send Message Btn -->
+                <a href="#">Send Message</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <footer>
+        <div>
+          <div class="row">
+            <div>
+              <h5>DOOB</h5>
+              <h3>CREATIVITY ABOVE</h3>
+              <ul class="contact-nav">
+                <li><a href="#home">Home.</a></li>
+                <li><a href="#about-us">About Us.</a></li>
+                <li><a href="#portfolio">Portfolio.</a></li>
+                <li><a href="#blog">Blog.</a></li>
+                <li><a href="#contact-us">Contact.</a></li>
+              </ul>
+              <h6>© 2019 - Doob,All Right Reserved</h6>
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+</body>
+</html>
